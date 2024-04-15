@@ -7,7 +7,7 @@ export default function params(){
  const nome =router.query.nome
 
     console.log(router)
-    return([id,nome])
+    return([id,'oi',nome])
 
     
 }
