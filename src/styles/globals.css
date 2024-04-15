@@ -19,6 +19,7 @@
 body {
   color:crimson;
   background: gold;
+  flex-direction: auto;
 }
 a{
   color: inherit;
