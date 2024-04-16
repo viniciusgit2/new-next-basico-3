@@ -3,7 +3,7 @@ export default function questao(req,res){
         const id=req.query.id
         res.status(200).json({
             id,
-            enuncido:"qual é sua cor favorita",respotas:['branca','vermelha','verde']})
+            enunciado:"qual é sua cor favorita",respotas:['branca','vermelha','verde']})
         
     }
     else{
